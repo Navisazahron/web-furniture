@@ -416,7 +416,6 @@ opacity: 0;
      content: '';
      height: 450px;
      width: 435px;
-     background: var(--light-color);
      position: absolute;
      bottom: 25px;
      left: 2px;
@@ -598,7 +597,7 @@ opacity: 0;
     height: 200px;
 }
 .about-img img {
-    width: 50%;
+    width: 100%;
 }
 }
 
@@ -638,7 +637,7 @@ opacity: 0;
         width: 100%;
         right: 12px;
     }
-    .about-img::after {
+    .-img::after {
         height: 90%;
     }
     .newsletter-content {
